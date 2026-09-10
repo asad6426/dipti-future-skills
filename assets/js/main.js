@@ -57,7 +57,7 @@
       '<h4>'+p.title+'</h4>'+
       '<div class="prog-meta"><span>'+p.tech+'</span><span>'+p.level+'</span><span class="tbc">Duration &mdash; TBC</span></div>'+
       '<p class="prog-outcome">Career outcome: '+careerFor(p.tech)+'.</p>'+
-      '<div class="prog-actions"><a class="btn-link" href="#">View Program &rarr;</a><a class="btn-link" href="#apply">Apply Now &rarr;</a></div>'+
+      '<div class="prog-actions"><a class="btn-link" href="#">View Program &rarr;</a><a class="btn-link" href="https://admission.dipti.com.bd/" target="_blank" rel="noopener">Apply Now &rarr;</a></div>'+
     '</div>';
   }
 
@@ -179,7 +179,7 @@
     {prog:"Professional Diploma in Cloud Computing & DevOps", batch:"Batch 05", start:"[TBA]", dur:"[TBA]", mode:"Online", seats:"Open"}
   ];
   document.getElementById('batch-body').innerHTML = BATCHES.map(function(b){
-    return '<tr><td class="prog">'+b.prog+'</td><td>'+b.batch+'</td><td>'+b.start+'</td><td>'+b.dur+'</td><td>'+b.mode+'</td><td>'+b.seats+'</td><td><a class="btn-link" href="#apply">Apply &rarr;</a></td></tr>';
+    return '<tr><td class="prog">'+b.prog+'</td><td>'+b.batch+'</td><td>'+b.start+'</td><td>'+b.dur+'</td><td>'+b.mode+'</td><td>'+b.seats+'</td><td><a class="btn-link" href="https://admission.dipti.com.bd/" target="_blank" rel="noopener">Apply &rarr;</a></td></tr>';
   }).join('');
 
   // ---- FAQ ----
