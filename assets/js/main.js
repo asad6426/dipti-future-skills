@@ -53,7 +53,7 @@
 
   function progCardHTML(p){
     return '<div class="prog-card">'+
-      '<div class="top"><span class="cat mono">'+p.type+'</span><span class="status-chip draft">Draft</span></div>'+
+      '<div class="top"><span class="cat mono">'+p.type+'</span></div>'+
       '<h4>'+p.title+'</h4>'+
       '<div class="prog-meta"><span>'+p.tech+'</span><span>'+p.level+'</span><span class="tbc">Duration &mdash; TBC</span></div>'+
       '<p class="prog-outcome">Career outcome: '+careerFor(p.tech)+'.</p>'+

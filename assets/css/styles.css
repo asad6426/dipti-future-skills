@@ -75,7 +75,6 @@ section{position:relative;}
   padding:3px 8px;
   border:1px solid currentColor;
 }
-.status-chip.draft{color:#9A6B1E;}
 .status-chip.placeholder{color:#8A4A55;}
 .status-chip.verified{color:#2E7A52;}
 
